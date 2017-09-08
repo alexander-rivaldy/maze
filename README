@@ -1,0 +1,43 @@
+----------------------------------------------------------------------------------
+STUDENT INFORMATION
+----------------------------------------------------------------------------------
+Alexander Rivaldy 3466521
+Pattarathon Watanakij 3503261
+
+----------------------------------------------------------------------------------
+DISCLAIMER
+----------------------------------------------------------------------------------
+
+The code in main.cpp, arg_processor.cpp, arg_processor.h, 
+action.cpp and action.h is not entirely ours.
+We implemented the working sample code given by Paul Miller 
+after the assignment 1 marking to our code after some adjustment
+
+Inside the file DijsktraSolver.cpp , we have commented the
+failed implementation of binary heap. We tried to complete it
+before submission, but we couldn't figure out how to do it on time,
+therefore we used our backup plan and commented the binary heap.
+We hope it can still be taken into consideration.
+
+We used factory pattern, which can be clearly seen in the solve_action
+where we created the corresponding class according to which 
+algorithm that the user chooses. 
+
+----------------------------------------------------------------------------------
+HOW TO RUN
+----------------------------------------------------------------------------------
+
+Go to the same folder as main.cpp and Makefile, and type & enter make.
+To be able to run valgrind and gdb, type & enter make debug
+
+To run the solving algorithm with --pb --pd --pm or --pe , those args
+will need to be followed by a svg name file.
+
+----------------------------------------------------------------------------------
+KNOWN BUGS 
+----------------------------------------------------------------------------------
+
+1. The DFS solver can't detect an unsolvable maze
+
+	
+
